@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { cn } from '../lib/utils';
 
-const navItems = [
+export const navItems = [
   { name: 'Dashboard', path: '/', icon: LayoutDashboard },
   { name: 'Live Monitoring', path: '/monitoring', icon: Activity },
   { name: 'AI Prediction', path: '/ai', icon: BrainCircuit },

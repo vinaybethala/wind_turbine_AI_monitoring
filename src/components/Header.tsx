@@ -13,6 +13,9 @@ export const Header: React.FC = () => {
         <h2 className="text-sm font-semibold truncate text-textMain hidden sm:block">
           Wind turbine AI monitoring productive maintainance & fault detection system
         </h2>
+        <h2 className="text-sm font-semibold truncate text-textMain sm:hidden">
+          Wind Turbine AI
+        </h2>
       </div>
 
       <div className="flex items-center gap-6 ml-4">
